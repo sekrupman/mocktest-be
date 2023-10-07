@@ -1,0 +1,8 @@
+1. Apakah Kegunaan JSON pada REST API?
+-JSON tidak bergantung pada bahasa. Artinya dapat digunakan dengan bahasa pemrograman apa pun.
+-JSON mendeskripsikan dirinya sendiri. Artinya dokumen JSON dapat dibaca dan dipahami tanpa bantuan sumber lain.
+-Sangat mudah untuk menguraikannya. Artinya dokumen JSON dapat dengan mudah diubah menjadi struktur data yang dapat digunakan oleh suatu program.
+
+2. Jelaskan bagaimana REST API bekerja
+RESTful API bekerja dengan cara memanipulasi resource dan representasi. Representasi ini saling dipertukarkan di antara pengguna dan server melalui antarmuka terstandar dan protokol komunikasi tertentu, biasanya HTTP.
+Jadi, saat pengguna ingin menggunakan fungsi suatu aplikasi, perangkatnya akan mengirimkan permintaan melalui HTTP ke server. Server akan mencari resource dan mengomunikasikan representasi state sebagai respons kepada pengguna melalui protokol yang sama. Representasi ini bisa dibuat dalam berbagai format, seperti JSON atau XML.
